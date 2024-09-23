@@ -9,10 +9,14 @@
 
 header{
 background-image: url(./hobbit_bg.jpg);
+clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+
 padding-top: 100px;
 padding-bottom: 100px;
 padding-left: 100px;
 }
+
+
 
 body{
 
@@ -32,9 +36,10 @@ color: grey;
 
 .coverh{
 display: block;
-margin-bottom: 1000px;
+margin-top: -100px;
 position: absolute;
-margin-right: 100px;
+margin-left:90px;
+
 }
 .p1{
 margin-left: 350px;
@@ -62,4 +67,9 @@ margin-left: 305px;
 margin-top: 40px;
 margin-left: 100px;
 
+}
+.div2{
+
+
+  margin-left: 350px;
 }
